@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #efe3e3;
+}
+
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border:1px;
+}
+
+.navbar-brand img{
+	height:40px;
+	width: 40px;
+	float:left;
+	margin-top:-10px;
+}
+
+.navbar-brand h1 { 
+  color: red;
+  font-size: 1.5em;
+  margin-top: 0px;
+  margin-bottom: 0;
+  line-height: .75;
+  float:right;
+}
+
+#nav-list{
+  text-align: center;
+  background-color:black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.row{
+	width: 100%;
+}
+
+#navlinks > a{
+	color:red;
+	border-left:1px solid red;
+	border-bottom: 1px solid red;
+}
+
+.content{
+  padding-top:70px;
+  padding-left: 40px;
+}
+
+body > div > div.row.history {
+	border-radius: 3px;
+}
+
